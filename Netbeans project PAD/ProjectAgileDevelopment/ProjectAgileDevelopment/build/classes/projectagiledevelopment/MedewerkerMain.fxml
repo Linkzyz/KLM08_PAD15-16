@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectagiledevelopment.MedewerkerMainController">
+   <children>
+      <Button layoutX="333.0" layoutY="195.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Inkomende vracht" />
+      <Button layoutX="510.0" layoutY="195.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Magazijn vracht" />
+      <HBox prefHeight="56.0" prefWidth="863.0">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo_klm_cargo_400.jpg" />
+               </image>
+            </ImageView>
+            <Region prefHeight="68.0" prefWidth="513.0" />
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="109.0" text="Logout">
+               <HBox.margin>
+                  <Insets top="8.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <VBox layoutX="-1.0" layoutY="64.0" prefHeight="473.0" prefWidth="155.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="106.0" text="Home">
+               <VBox.margin>
+                  <Insets bottom="8.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="106.0" text="Test" />
+         </children>
+         <padding>
+            <Insets left="25.0" top="10.0" />
+         </padding>
+      </VBox>
+      <Separator layoutX="151.0" layoutY="64.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="9.0" />
+      <Separator layoutY="56.0" prefHeight="17.0" prefWidth="863.0" />
+      <Text layoutX="220.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Vandaag al ** vracht verwerkt" wrappingWidth="397.13671875">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Op dit moment ** openstaande vracht" wrappingWidth="321.99609375">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
